@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height:47.5vh;
+  width: 22vw;
+  background-color: white;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  border-radius: 1rem;
+}
+.card-header {
+  padding: 1rem;
+}
+.cardImage {
+  height: 20vh;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.btn-style {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #e6d6fc;
+  border-radius: 2rem;
+  width: 55px;
+  color: #883ae1;
+  border-color: transparent;
+  font-size: 0.625rem;
+  font-family: "Sora";
+  font-weight: 550;
+  padding: 3px;
+}
+.title {
+  color: #20293a;
+  font-family: "Sora";
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.body {
+  padding-top: 5px;
+  color: #6c727f;
+  font-family: "Sora";
+  font-size: 0.875rem;
+}
+.seprator {
+  margin-top: 4px;
+  width: 100%;
+  height: 1px;
+  background-color: #6c727f;
+  opacity: 0.3;
+  margin-bottom: 15px;
+}
+.Author {
+  color: #6c727f;
+  font-family: "Sora";
+  font-size: 0.75rem;
+  padding-left: 1rem;
+}
